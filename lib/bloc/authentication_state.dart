@@ -1,0 +1,5 @@
+class AuthenticationState {}
+class AuthenticationInitializedState extends AuthenticationState{}
+class AuthenticationAutheticated extends AuthenticationState{}
+class AuthenticationLoading extends AuthenticationState{}
+class AuthenticationUnauthenticated extends AuthenticationState{}
